@@ -1,0 +1,1 @@
+@extends('admission/layouts.app')

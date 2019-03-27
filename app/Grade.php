@@ -1,0 +1,14 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Grade extends Model
+{
+      
+    protected $table = 'grades';
+    protected $fillable=['grade','description'];
+    protected $primaryKey='grade_id';
+    public $timestamps = true;
+}
